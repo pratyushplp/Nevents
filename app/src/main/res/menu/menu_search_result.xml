@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="semproject.nevent.SearchResultActivity">
+    <item
+        android:id="@+id/searchresult_search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        myapp:showAsAction="always"
+        myapp:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>

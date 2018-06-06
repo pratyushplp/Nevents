@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/follow_layout"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:id="@+id/follow_profilepic"/>
+    <TextView
+        android:id="@+id/follow_username"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="USER"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/follow_id"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="false"
+        android:textSize="1sp"
+        android:visibility="invisible"
+        android:textColor="#008000"/>
+    <TextView
+        android:id="@+id/follow_unclick"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="check"
+        android:textSize="1sp"
+        android:visibility="invisible"
+        android:textColor="#008000"/>
+</LinearLayout>

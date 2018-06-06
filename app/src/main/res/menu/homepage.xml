@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title="@string/search_title"
+        android:actionViewClass="android.widget.SearchView"
+        myapp:showAsAction="always" />
+
+    <item android:id="@+id/action_location"
+        android:title="NearBy"
+        android:icon="@drawable/nearby"
+        myapp:actionViewClass="android.support.v7.widget.Button"
+        myapp:showAsAction="always" />
+
+    <item android:id="@+id/action_invitation"
+        android:title="Invitations"
+        android:icon="@drawable/invites"
+        myapp:actionViewClass="android.support.v7.widget.Button"
+        myapp:showAsAction="always" />
+    <item android:id="@+id/action_facebook"
+        android:title="Facebook"
+        android:icon="@drawable/fb48"
+        android:visible="false"
+        myapp:actionViewClass="android.support.v7.widget.Button"
+        myapp:showAsAction="always" />
+
+</menu>
+
+
+
+
+
+
